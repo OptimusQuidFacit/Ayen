@@ -1,0 +1,16 @@
+.wrapper {
+    min-height: 80px;
+}
+.col{
+  flex: 1;
+  /* align-self: start; */
+}
+.maincol{
+  flex: 2;
+}
+
+@media(max-width:800px){
+  .phone{
+    display: none;
+  }
+}

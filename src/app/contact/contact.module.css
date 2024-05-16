@@ -1,0 +1,17 @@
+.imgContainer{
+    position: relative;
+    flex: 1;
+    height: 600px;
+}
+.container {
+    min-height: 75vh;
+}
+.body {
+    flex:1;
+}
+
+@media (max-width: 510px){
+    .imgContainer{
+        height: 300px;
+    }
+}

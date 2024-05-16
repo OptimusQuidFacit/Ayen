@@ -1,0 +1,25 @@
+
+.col {
+    flex: 1;
+}
+.link{
+    position: relative;
+}
+.link::before {
+    content: '';
+    height: 3px;
+    width: 0px;
+    position: absolute;
+    bottom: -2px;
+    background-color: #5B801A;
+    transition: all 0.2s ease-in;
+}
+
+.link:hover::before{
+    width: 100%;
+    max-width: 100px;
+}
+.active {
+    /* padding-bottom: 1px; */
+    border-bottom: 3px solid #5B801A;
+}
