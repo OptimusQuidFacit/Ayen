@@ -19,7 +19,7 @@ const page = () => {
                                 The African Youth Energy Network (AYEN) is a youth-led and
                                 youth-focused organization that is dedicated to empowering
                                 African youth to become part of the energy transition.
-                                AYEN's mission is to actively promote and support the
+                                Our mission is to actively promote and support the
                                 voices, ideas, and actions of youth in shaping the energy
                                 future of the African continent.
                                 Targeting all African countries, AYEN looks to provide access
