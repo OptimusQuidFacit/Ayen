@@ -64,3 +64,10 @@
         margin-bottom: 20px;
     }
 }
+
+.loader{
+    min-height: 70vh;
+}
+.notfound{
+    min-height: 70vh;
+}
