@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className={`${styles.wrapper}`}>
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
             <div className={`${styles.container} d-flex justify-content-between align-items-center container`}>
-                <div className={``}>
+                <div className={`${styles.logoText}`}>
                     <Link className="navbar-brand fw-bold" href="/">
                         <Image src={'/ayenlogo.png'} width={70} height={50} alt="AYEN logo"/>
                         AYEN

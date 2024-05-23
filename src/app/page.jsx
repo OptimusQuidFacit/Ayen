@@ -11,11 +11,14 @@ export const metadata = {
 const Home = () => {
   return (
 
-    <div className="container">
+    <div className={`${styles.wrapper} container`}>
       <header>
         <div className={`${styles.imgContainer}`}>
           <Image className="rounded-3" src='/plug.jpg' fill alt="Photo depicting energy"/>
           <div className={`${styles.textContainer}`}>
+            {/* <div className={styles.logoContainer}>
+              <Image fill src={`/ayenlogo.png`} alt="AYEN logo"/>
+            </div> */}
             <h1 className={`${styles.heading} fw-bold text-light text-center`}>
               African Youths in Energy Network
             </h1>

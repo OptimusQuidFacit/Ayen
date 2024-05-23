@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" href="/ayenlogo.png"/>
       </Head>
       <body className={inter.className}>
-        <nav className='mb-5'>
+        <nav className='mb-3'>
           <Navbar/>
         </nav>
         {children}

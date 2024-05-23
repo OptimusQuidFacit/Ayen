@@ -1,6 +1,9 @@
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 @media (max-width: 800px ){

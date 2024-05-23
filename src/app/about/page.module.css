@@ -42,12 +42,12 @@
 
 @media (max-width: 800px){
     .imgContainer{
-        height: 80vh;
+        height: 70vh;
     }
 }
-@media (max-width: 500px){
+@media (max-width: 440px){
     .imgContainer{
-        height: 110vh;
+        height: 100vh;
     }
     .headingText{
         font-size: 2.5rem;

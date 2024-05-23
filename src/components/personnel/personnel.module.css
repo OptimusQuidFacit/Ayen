@@ -4,8 +4,9 @@
 }
 .imgContainer{
     position: relative;
-    height: 300px;
-    width: 300px;
+    min-height: 300px;
+    width: 100%;
+    min-width: 200px;
     margin: auto;
 }
 
@@ -20,7 +21,7 @@
         grid-template-columns: 1fr;
     }
     .imgContainer{
-        height: 200px;
+        height: 300px;
         width: 300px;
     }
 }

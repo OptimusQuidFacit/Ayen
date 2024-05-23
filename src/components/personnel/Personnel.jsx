@@ -65,7 +65,7 @@ const Personnel = () => {
             <div className={`${styles.wrapper} `}>
                 {
                     persons.map(person=>
-                    <div key={person.name} className={`${person.name==="If there is need for that, include a name here" && styles.lead} m-3 shadow shadow-1 p-3 rounded-2`}>
+                    <div key={person.name} className={`${person.name==="If there is need for that, include a name here" && styles.lead} my-3 mx-1 shadow shadow-1 p-3 rounded-2`}>
                         <div className={`${styles.imgContainer}`}>
                             <Image className="rounded-5" src={person.photo} fill alt ={`A photo of ${person.name} and is the ${person.position} at AYEN`}   />
                         </div>
