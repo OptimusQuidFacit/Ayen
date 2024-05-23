@@ -19,10 +19,6 @@ const Gallery = () => {
             img:"/people.jpg",
             alt:"Picture taken at AYEN conference in UNIPORT. A group of AYEN members"
         },
-        {
-            img:"/team.jpg",
-            alt:"Picture of team members"
-        },
     ]
     return (
 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -31,7 +27,7 @@ const Gallery = () => {
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+            {/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button> */}
         </div>
         <div className="carousel-inner bg-primary p-5">
             { images.map((image, index)=>
