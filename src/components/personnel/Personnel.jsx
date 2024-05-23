@@ -5,7 +5,7 @@ const Personnel = () => {
         {
             name: "Promise Nwogu",
             position:"President/Founder",
-            photo: "/Promise.png",
+            photo: "/Promise.jpg",
             text: `
                 Promise Nwogu is a Petroleum Engineering graduate from the Federal University of Technology Owerri, Nigeria. He
                 has since taken an interest in the renewable energy sector due to the positive impacts he has seen in the lives of
@@ -19,7 +19,7 @@ const Personnel = () => {
         {
             name: "Blessing Enendu",
             position:"Aministrative Manager",
-            photo: "/Blessing.png",
+            photo: "/Blessing.jpg",
             text: `
                 Blessing Enendu is a Chemical Engineering Graduate from the Federal University of Technology Owerri. She has
                 passion for Sustainable Energy. She is currently the Executive manager of AYEN. Outside this, She loves carrying
@@ -31,22 +31,9 @@ const Personnel = () => {
 
         },
         {
-            name: "Chanda Siame",
-            position:"Strategy Manager",
-            photo: "/Chanda.png",
-            text: `
-                As a recent renewable energy graduate, Chanda is passionate about creating a sustainable future for our
-                planet. She has a deep understanding of renewable energy technologies and always on the lookout for
-                innovative solutions to address the world's energy challenges. Chanda is also a firm believer in a global
-                collective effort to achieve Zero-carbon emissions by 2050 in line with the United Nations Sustainable
-                Development Goals.
-            `
-
-        },
-        {
             name: "Vusi Mashinini",
             position:"Legal Manager",
-            photo: "/Vusi.png",
+            photo: "/Vusi.jpg",
             text:`
                 Vusi has a cumulative experience of 3 years in the financial sector.In his previous role as a Manager in
                 Corporate Affairs and Strategy, he oversaw strategic planning, corporate communications, stakeholder
@@ -60,13 +47,15 @@ const Personnel = () => {
 
         },
         {
-            name: "Winner Godson",
-            position:"Partnership Manager",
-            photo: "/Winner.png",
+            name: "Chanda Siame",
+            position:"Strategy Manager",
+            photo: "/Chanda.jpg",
             text: `
-                Winner Godson is a recent graduate of Mechanical Engineering who has passion for energy and
-                Sustainability. He was part of the pioneering team of Student Energy Uniport and was the SDG coordinator of UN SDG solutions Network in Port-Harcourt Nigeria.
-            
+                As a recent renewable energy graduate, Chanda is passionate about creating a sustainable future for our
+                planet. She has a deep understanding of renewable energy technologies and always on the lookout for
+                innovative solutions to address the world's energy challenges. Chanda is also a firm believer in a global
+                collective effort to achieve Zero-carbon emissions by 2050 in line with the United Nations Sustainable
+                Development Goals.
             `
 
         },
@@ -76,7 +65,7 @@ const Personnel = () => {
             <div className={`${styles.wrapper} `}>
                 {
                     persons.map(person=>
-                    <div key={person.name} className={`${person.name==="Promise Nwogu" && styles.lead} m-3 shadow shadow-1 p-3 rounded-2`}>
+                    <div key={person.name} className={`${person.name==="If there is need for that, include a name here" && styles.lead} m-3 shadow shadow-1 p-3 rounded-2`}>
                         <div className={`${styles.imgContainer}`}>
                             <Image className="rounded-5" src={person.photo} fill alt ={`A photo of ${person.name} and is the ${person.position} at AYEN`}   />
                         </div>

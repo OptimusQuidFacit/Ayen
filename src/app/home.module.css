@@ -25,10 +25,12 @@
 
 .leftMission{
     flex: 1;
+    min-height: 250px;
 }
 .rightMission{
     position: relative;
     flex: 1; 
+    min-height: 250px;
 }
 .leftVision{
     position: relative;

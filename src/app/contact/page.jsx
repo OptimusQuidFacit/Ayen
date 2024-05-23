@@ -4,6 +4,10 @@ import { IoMdMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa6";
 import Link from "next/link";
 
+export const metadata = {
+    title: 'Contact AYEN - Connect with Us to Empower Youth in the Energy Sector',
+    description: 'Get in touch with AYEN to learn more about our mission, programs, and how you can get involved. Reach out to us for inquiries, partnerships, and support as we work together to inspire and empower the next generation in the energy sector.',
+  }
 const page = () => {
     return (
         <div className={`container ${styles.container}`}>

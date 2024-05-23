@@ -1,3 +1,11 @@
 .link{
     text-decoration: none;
 }
+/* .carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #000000;
+    
+} */
+.carousel-inner{
+    background-color: grey;
+    border-radius: 20px;
+}

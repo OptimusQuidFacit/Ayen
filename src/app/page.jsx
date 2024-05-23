@@ -1,7 +1,13 @@
 import Image from "next/image";
 import styles from "./home.module.css"
 import Values from "@/components/values/Values";
+import Gallery from "@/components/Gallery/Gallery";
 
+
+export const metadata = {
+  title: 'AYEN - Empowering Youths to Revolutionize the Energy Sector',
+  description: 'Join AYEN, a dynamic NGO dedicated to uniting and empowering young minds to innovate and make a lasting impact in the energy sector. Discover how we are fostering the next generation of energy leaders and driving sustainable change.',
+}
 const Home = () => {
   return (
 
@@ -41,7 +47,7 @@ const Home = () => {
         </div>
         <div className={`${styles.rightMission}`}>
          
-            <Image className="rounded-4" src='/team.jpg' fill alt="A photo of team members in the AYEN group"/>
+            <Image className="rounded-4" src='/audience.jpg' fill alt="An image a conference in the AYEN group held in UNIPORT"/>
           
         </div>
       </section>
@@ -80,6 +86,11 @@ const Home = () => {
           </h2>
           <Values/>
         </div>
+      </section>
+
+      <section className="py-5">
+        <h2 className="fw-bold">Gallery</h2>
+        <Gallery/>
       </section>
       
   </div>

@@ -1,0 +1,22 @@
+.galleryImageContainer{
+    width: 60%;
+    position: relative;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
+@media (max-width:600px){
+    .galleryImageContainer{
+        width: 100%;
+        height: 250px;
+    }
+}
+@media (min-width:500px){
+    .btnwrapper {
+        padding: 10px;
+        background-color: black;
+        border-radius: 50%;
+    }
+}

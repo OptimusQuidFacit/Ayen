@@ -65,7 +65,7 @@ const Values = () => {
 
     ]
     return (
-        <div className={`${styles.wrapper} bg-secondary p-lg-5 p-1 rounded-3`}>
+        <div className={`${styles.wrapper} bg-primary p-lg-5 p-1 rounded-3`}>
             {
                 values.map(value=>
 

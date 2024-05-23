@@ -1,7 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css"
 import Personnel from "@/components/personnel/Personnel";
+
+export const metadata = {
+    title: 'About AYEN - Meet Our Team Driving Youth Innovation in the Energy Sector',
+    description: 'Learn about AYEN\'s mission to empower youth in the energy sector. Discover our key personnel and how their expertise is shaping the future of sustainable energy. Join us in fostering innovation and leadership among the next generation.',
+  }
 const page = () => {
+
     return (
         <div className="container">
             <header>
