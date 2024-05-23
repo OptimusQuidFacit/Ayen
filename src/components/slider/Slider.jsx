@@ -57,7 +57,7 @@ const Slider = () => {
                     <div>
                         {item.body}
                     </div>
-                    <Link className={`link btn btn-primary mt-3`} href={`#`}>
+                    <Link className={`link btn btn-secondary mt-3`} href={`#`}>
                         Support Us
                     </Link>
                 </div>
