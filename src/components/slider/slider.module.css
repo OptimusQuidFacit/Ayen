@@ -21,6 +21,7 @@
     filter: brightness(100%);
     color: white;
     transition: transform 2s ease-in-out;
+    transition-delay: 2s;
 }
 .active{
     transform: translate(-50%, -50%);

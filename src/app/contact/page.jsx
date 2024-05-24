@@ -32,7 +32,7 @@ const page = () => {
                     </div>
                 </div>
                 <div className={`${styles.imgContainer}`}>
-                    <Image src={`/africa.png`} fill alt="A map of Africa which shows the organization is based in Africa"/>
+                    <Image className={styles.img} src={`/africa.png`} fill alt="A map of Africa which shows the organization is based in Africa"/>
                 </div>
             </section>
 

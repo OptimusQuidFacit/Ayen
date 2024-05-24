@@ -3,6 +3,9 @@
     flex: 1;
     height: 600px;
 }
+.img{
+    object-fit: cover;
+}
 .container {
     min-height: 75vh;
 }

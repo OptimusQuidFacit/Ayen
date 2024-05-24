@@ -14,7 +14,7 @@ const Home = () => {
     <div className={`${styles.wrapper} container`}>
       <header>
         <div className={`${styles.imgContainer}`}>
-          <Image className="rounded-3" src='/plug.jpg' fill alt="Photo depicting energy"/>
+          <Image className={`rounded-3 ${'styles.img'}`} src='/plug.jpg' fill alt="Photo depicting energy"/>
           <div className={`${styles.textContainer}`}>
             {/* <div className={styles.logoContainer}>
               <Image fill src={`/ayenlogo.png`} alt="AYEN logo"/>
