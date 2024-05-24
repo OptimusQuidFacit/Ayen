@@ -66,7 +66,7 @@ const Personnel = () => {
                 {
                     persons.map(person=>
                     <div key={person.name} className={`${person.name==="If there is need for that, include a name here" && styles.lead} my-3 mx-1 shadow shadow-1 p-3 rounded-2`}>
-                        <div className={`${styles.imgContainer} m-3`}>
+                        <div className={`${styles.imgContainer} mb-3`}>
                             <Image className={`rounded-5 ${styles.img}`} src={person.photo} fill alt ={`A photo of ${person.name} and is the ${person.position} at AYEN`}   />
                         </div>
                         <h3 className="text-center fw-bold">
