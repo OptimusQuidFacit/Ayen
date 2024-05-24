@@ -8,7 +8,7 @@ const Links = () => {
     return (
     <div className="collapse navbar-collapse ms-5" id="navbarNavDropdown">
       <ul className="navbar-nav d-flex">
-        <li className={ `${styles.col} nav-item me-3`}>
+        <li className={ ` nav-item me-3`}>
           <Link className={` ${pathname==='/about' ? styles.active: styles.link} nav-link`} href="/about">About Us</Link>
         </li>
         
@@ -22,7 +22,7 @@ const Links = () => {
             <li><Link className="dropdown-item" href="/about#keypersonnel">Key Personnel</Link></li>
           </ul>
         </li>
-        <li className="nav-item me-3">
+        <li className={`nav-item me-3`}>
           <Link className={` ${pathname==='/contact' ? styles.active: styles.link} nav-link`} href="/contact">Contact Us</Link>
         </li>
         <li className="nav-item me-3">
