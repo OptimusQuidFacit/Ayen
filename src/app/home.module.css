@@ -13,6 +13,9 @@
     height: 40vh;
     width: 100%;
 }
+.img{
+    object-fit: cover;
+}
 
 .textContainer{
     width: 90%;
@@ -48,14 +51,16 @@
 .rightMission{
     position: relative;
     flex: 1; 
-    min-height: 300px;
+    min-height: 250px;
+    max-width: 400px;
     
 }
 .leftVision{
     position: relative;
     flex: 1;
     width: 100%;
-    min-height: 300px;
+    max-width: 400px;
+    min-height: 250px;
 }
 .rightVision{
     flex: 1;
@@ -77,14 +82,19 @@
 }
 @media (max-width: 800px){
     .rightMission{
-       width: 100%;
+       /* width: 90%;
        height: 300px;
        margin-top: 20px;
+       margin: auto; */
+       display: none;
+
     }
     .leftVision{
-        width: 100%;
-        height: 300px;
+        width: 90%;
+        max-width: 450px;
+        min-width: 300px;
         margin-bottom: 20px;
+        margin: auto;
     }
 }
 

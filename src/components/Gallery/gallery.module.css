@@ -1,16 +1,28 @@
 .galleryImageContainer{
     width: 60%;
+    max-width: 600px;
     position: relative;
-    height: 400px;
-    margin: auto;
+    height: 50vw;
+    max-height: 400px;
+    margin: 10px auto;
     border-radius: 20px;
 }
-
+.img{
+    object-fit: cover;
+}
+.btnwrapper {
+    padding: 6px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
 
 @media (max-width:600px){
     .galleryImageContainer{
+        margin: auto;
         width: 100%;
-        height: 250px;
+        height: 80vw;
     }
 }
 @media (min-width:500px){

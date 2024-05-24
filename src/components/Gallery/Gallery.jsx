@@ -19,6 +19,10 @@ const Gallery = () => {
             img:"/people.jpg",
             alt:"Picture taken at AYEN conference in UNIPORT. A group of AYEN members"
         },
+        {
+            img:"/womanspeaking.jpg",
+            alt:"Picture taken at AYEN conference in UNIPORT. A Woman speaking at AYEN conference"
+        },
     ]
     return (
 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
@@ -27,13 +31,13 @@ const Gallery = () => {
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
-            {/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button> */}
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
         </div>
-        <div className="carousel-inner bg-primary p-5">
+        <div className="carousel-inner bg-primary  p-lg-5">
             { images.map((image, index)=>
             <div key={image.img} className={`carousel-item  ${index===0&&'active'}`}>
                 <div className={`${styles.galleryImageContainer}`}>
-                    <Image  fill src={image.img} className="rounded-3 d-block w-100" alt={image.alt}/>
+                    <Image  fill src={image.img} className={`rounded-3 ${styles.img}`} alt={image.alt}/>
                 </div>
             </div>
             )

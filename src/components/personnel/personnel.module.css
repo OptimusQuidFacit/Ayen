@@ -9,6 +9,9 @@
     min-width: 200px;
     margin: auto;
 }
+.img{
+    object-fit: cover;
+}
 
 
 @media (min-width: 700px){

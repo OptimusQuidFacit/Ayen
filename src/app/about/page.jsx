@@ -13,7 +13,7 @@ const page = () => {
             <header>
                 <div className={` `}>
                     <div className={`${styles.imgContainer}`}>
-                        <Image className="rounded-3" src='/bulb.jpg' fill alt="A photo of an energy saving bulb used as depiction for this company's mission"/>
+                        <Image className={`rounded-3 ${styles.img}`} src='/bulb.jpg' fill alt="A photo of an energy saving bulb used as depiction for this company's mission"/>
                         <div className={`${styles.textContainer}`}>
                             <div className={`${styles.aboutTitle}`}>
                                 <h1 className={styles.headingText}>

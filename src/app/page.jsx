@@ -50,14 +50,14 @@ const Home = () => {
         </div>
         <div className={`${styles.rightMission}`}>
          
-            <Image className="rounded-4" src='/audience.jpg' fill alt="An image a conference in the AYEN group held in UNIPORT"/>
+            <Image className={`rounded-4 ${styles.img}`} src='/audience.jpg' fill alt="An image a conference in the AYEN group held in UNIPORT"/>
           
         </div>
       </section>
 
       <section className={`${styles.row} mt-5`}>
-        <div className={`${styles.leftVision}`}>   
-            <Image className="rounded-4" src='/3MenAndAwards.jpg' fill alt="A photo of team members in the AYEN group highlighting their goals"/>
+        <div className={`${styles.leftVision} mb-3`}>   
+            <Image className={`rounded-4 ${styles.img}`} src='/3MenAndAwards.jpg' fill alt="A photo of team members in the AYEN group highlighting their goals"/>
         </div>
         <div className={`${styles.rightVision}`}>
          
