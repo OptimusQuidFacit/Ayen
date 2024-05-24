@@ -25,7 +25,7 @@ const Gallery = () => {
         },
     ]
     return (
-<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
         <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -35,9 +35,9 @@ const Gallery = () => {
         </div>
         <div className="carousel-inner bg-primary  p-lg-5">
             { images.map((image, index)=>
-            <div key={image.img} className={`carousel-item  ${index===0&&'active'}`}>
+            <div key={image.img}  className={`carousel-item  ${index===0&&'active'}`}>
                 <div className={`${styles.galleryImageContainer}`}>
-                    <Image  fill src={image.img} className={`rounded-3 ${styles.img}`} alt={image.alt}/>
+                    <Image  fill src={image.img} className={`rounded-3 d-block w-100 ${styles.img}`} alt={image.alt}/>
                 </div>
             </div>
             )

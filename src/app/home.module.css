@@ -11,6 +11,7 @@
 .imgContainer{
     position: relative;
     height: 40vh;
+    max-height: 400px;
     width: 100%;
 }
 .img{

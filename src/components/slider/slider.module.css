@@ -20,10 +20,10 @@
     z-index: 3;
     filter: brightness(100%);
     color: white;
-    transition: transform 2s ease-in-out;
-    transition-delay: 2s;
+    
 }
 .active{
+    transition: transform 1.5s ease-in-out;
     transform: translate(-50%, -50%);
 }
 .listItem{

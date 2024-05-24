@@ -5,6 +5,7 @@ import Navbar from '@/components/nav/Navbar'
 import Script from 'next/script'
 import Head from 'next/head'
 import Footer from '@/components/footer/Footer'
+// import script from '../../node_modules/bootstrap/dist/js/bootstrap.bundle'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,7 +28,8 @@ export default function RootLayout({ children }) {
         <footer>
           <Footer/>
         </footer>
-        <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js'/>
+        <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' strategy="beforeInteractive"/>
+        {/* <Script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" strategy="afterInteractive"/> */}
         </body>
     </html>
   )
