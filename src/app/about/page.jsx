@@ -47,7 +47,7 @@ const page = () => {
                 <h2 className="fw-bold text-center">
                     Key Personnel
                 </h2>
-                <p className="text-center fw-bold">
+                <p className="">
                     The African Youth Energy Network (AYEN) was founded by a vibrant team of African youths looking to
                     make a differences in the lives of their peers on the continent.
 
