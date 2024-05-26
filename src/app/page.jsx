@@ -9,19 +9,44 @@ export const metadata = {
   description: 'Join AYEN, a dynamic NGO dedicated to uniting and empowering young minds to innovate and make a lasting impact in the energy sector. Discover how we are fostering the next generation of energy leaders and driving sustainable change.',
 }
 const Home = () => {
+  const images = [
+    {
+      src: "/ayenphoto1.jpg",
+      alt: "Photo depicting of team members at Ayen Conference"
+    },
+    {
+      src: "/ayenphoto2.jpg",
+      alt: "Photo of team members at Ayen conference both holding a banner"
+    },
+    {
+      src: "/ayenphoto3.jpg",
+      alt: "Photo of two members of the AYEN group"
+    },
+  ]
   return (
 
     <div className={`${styles.wrapper} container`}>
       <header>
-        <div className={`${styles.imgContainer}`}>
-          <Image className={`rounded-3 ${'styles.img'}`} src='/plug.jpg' fill alt="Photo depicting energy"/>
-          <div className={`${styles.textContainer}`}>
-            {/* <div className={styles.logoContainer}>
-              <Image fill src={`/ayenlogo.png`} alt="AYEN logo"/>
-            </div> */}
-            <h1 className={`${styles.heading} fw-bold text-light text-center`}>
-              African Youths in Energy Network
-            </h1>
+        {/* <div className={`${styles.imgContainer}`}> */}
+
+        <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-interval="3000" data-bs-ride= "carousel">
+          <div className="carousel-inner">
+            {
+              images.map((image, index)=>
+            <div key={image.src} className={`carousel-item ${styles.imgContainer} ${index===0&&'active'}`}>
+              <Image className={`rounded-3 d-block w-100 ${styles.img}`} src={image.src} fill alt={image.alt}/>
+              {/* <Image className={`rounded-3 ${styles.img}`} src='/ayenphoto1.jpg' fill alt="Photo depicting energy"/> */}
+              <div className={`${styles.textContainer}`}>
+              {/* <div className={styles.logoContainer}>
+                <Image fill src={`/ayenlogo.png`} alt="AYEN logo"/>
+              </div> */}
+                <h1 className={`${styles.heading} fw-bold text-light text-center`}>
+                  African Youths in Energy Network
+                </h1>
+              </div>
+            </div>
+              )
+            }     
           </div>
         </div>
       </header>
@@ -50,14 +75,14 @@ const Home = () => {
         </div>
         <div className={`${styles.rightMission}`}>
          
-            <Image className={`rounded-4 ${styles.img}`} src='/audience.jpg' fill alt="An image a conference in the AYEN group held in UNIPORT"/>
+            <Image className={`rounded-4 ${styles.bodyimg}`} src='/audience.jpg' fill alt="An image a conference in the AYEN group held in UNIPORT"/>
           
         </div>
       </section>
 
       <section className={`${styles.row} mt-5`}>
         <div className={`${styles.leftVision} mb-3`}>   
-            <Image className={`rounded-4 ${styles.img}`} src='/3MenAndAwards.jpg' fill alt="A photo of team members in the AYEN group highlighting their goals"/>
+            <Image className={`rounded-4 ${styles.bodyimg}`} src='/3MenAndAwards.jpg' fill alt="A photo of team members in the AYEN group highlighting their goals"/>
         </div>
         <div className={`${styles.rightVision}`}>
          

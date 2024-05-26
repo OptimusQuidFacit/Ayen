@@ -16,6 +16,10 @@
 }
 .img{
     object-fit: cover;
+    filter: brightness(40%)
+}
+.bodyimg{
+    object-fit: cover;
 }
 
 .textContainer{

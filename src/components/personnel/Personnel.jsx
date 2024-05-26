@@ -4,7 +4,7 @@ const Personnel = () => {
     const persons= [
         {
             name: "Promise Nwogu",
-            position:"President/Founder",
+            position:"President",
             photo: "/Promise.jpg",
             text: `
                 Promise Nwogu is a Petroleum Engineering graduate from the Federal University of Technology Owerri, Nigeria. He
