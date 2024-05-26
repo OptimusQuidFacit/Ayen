@@ -10,8 +10,9 @@
 }
 .imgContainer{
     position: relative;
+    min-height: 400px;
     height: 40vh;
-    max-height: 400px;
+    max-height: 500px;
     width: 100%;
 }
 .img{

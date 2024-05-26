@@ -20,7 +20,7 @@ const page = () => {
                                     About Us
                                 </h1>
                             </div>
-                            <div className={`${styles.aboutText}`}>
+                            <div className={`${styles.aboutText} px-lg-3`}>
                                 <p className="bg-light p-3 rounded-3 text-primary">
                                     The African Youth Energy Network (AYEN) is a youth-led and
                                     youth-focused organization that is dedicated to empowering
