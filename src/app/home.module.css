@@ -40,11 +40,19 @@
 }
 .heading{
     text-shadow:5px 5px 5px black;
+    
     /* font-family: "Crimson Text", serif;
     font-weight: bold;
     font-style: normal; */
     
 }
+.african {
+    color: #FBBF32;
+    margin-right: 0.5ch;
+}
+/* .othertext{
+    color: #4EA740;
+} */
 
 
 .leftMission{

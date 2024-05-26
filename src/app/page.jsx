@@ -11,12 +11,16 @@ export const metadata = {
 const Home = () => {
   const images = [
     {
+      src: "/ayenphoto.jpg",
+      alt: "Colored Photo showing three team members at Ayen Conference"
+    },
+    {
       src: "/ayenphoto1.jpg",
       alt: "Photo depicting of team members at Ayen Conference"
     },
     {
-      src: "/ayenphoto2.jpg",
-      alt: "Photo of team members at Ayen conference both holding a banner"
+      src: "/ayenphoto4.jpg",
+      alt: "Photo of team members at Ayen conference, all cheerful"
     },
     {
       src: "/ayenphoto3.jpg",
@@ -41,7 +45,14 @@ const Home = () => {
                 <Image fill src={`/ayenlogo.png`} alt="AYEN logo"/>
               </div> */}
                 <h1 className={`${styles.heading} fw-bold text-light text-center`}>
-                  African Youths in Energy Network
+                  <span className={styles.african}>
+                    African 
+                  </span>
+                  
+                  <span className={styles.othertext}>
+                    Youths in Energy Network
+                  </span>
+
                 </h1>
               </div>
             </div>

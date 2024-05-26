@@ -28,8 +28,8 @@ export default function RootLayout({ children }) {
         <footer>
           <Footer/>
         </footer>
-        <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js' strategy="beforeInteractive"/>
-        {/* <Script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" strategy="afterInteractive"/> */}
+        {/* <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js' strategy="beforeInteractive"/> */}
+        <Script src="/bootstrap.bundle.min.js" strategy="beforeInteractive"/>
         </body>
     </html>
   )

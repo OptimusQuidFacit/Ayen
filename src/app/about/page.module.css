@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     height: 60vh;
+    max-height: 800px;
 }
 .img{
     object-fit: cover;
@@ -9,7 +10,6 @@
 }
 .aboutText{
     flex: 2;
-    padding-left: 20px;
 }
 .aboutTitle{
     flex: 1;
@@ -35,6 +35,7 @@
 @media (max-width: 1000px){
     .textContainer{
         display: block;
+        /* margin: auto; */
     }
     .aboutTitle{
         border: none;
