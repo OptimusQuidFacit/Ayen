@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <link rel="icon" type="image/png" href="/ayenlogo.png"/>
+        <meta name="google-site-verification" content="ESCA8ZADmoxuz6ctenSWsEVYRG-jXoxP1SY1hBGSzrU" />
       </Head>
       <body className={inter.className}>
         <nav className='mb-3'>
