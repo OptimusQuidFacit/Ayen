@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <Head key={`layout`}>
         <link rel="icon" type="image/png" href="/ayenlogo.png"/>
         <meta name="google-site-verification" content="ESCA8ZADmoxuz6ctenSWsEVYRG-jXoxP1SY1hBGSzrU" />
       </Head>
