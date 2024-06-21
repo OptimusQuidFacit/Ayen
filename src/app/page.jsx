@@ -176,8 +176,8 @@ const Home = () => {
                 </h2>
                 <div className={`${styles.partners}`}>
                   {
-                    partners.map(partner=>
-                      <div className={`mt-2 ${styles.partnerImgContainer}`}>
+                    partners.map((partner, index)=>
+                      <div key={index} className={`mt-2 ${styles.partnerImgContainer}`}>
                         <Image style={{objectFit:"contain"}} fill src={partner.img} alt={`${partner.name}'s logo`}/>
                       </div>
                     )
