@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./footer.module.css";
-import { FaFacebook, FaLinkedin, FaMailchimp, FaPhone, FaTwitter } from "react-icons/fa6";
+import { FaFacebook, FaLinkedin, FaMailchimp, FaPhone} from "react-icons/fa6";
 const Footer = () => {
     return (
         <div className={`${styles.wrapper} mt-5 bg-dark text-light py-2 px-1`}>

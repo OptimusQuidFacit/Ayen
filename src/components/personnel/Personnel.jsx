@@ -64,7 +64,10 @@ const Personnel = () => {
             position:"Legal Partner",
             photo: "/funmi.jpg",
             text: `
-                Oluwafunmilola is a detail-oriented lawyer with experience in dispute resolution, company secretarial, and corporate commercial practices. She received an LL.B degree from the University of Ibadan, Nigeria and a B.L from the Nigerian Law School.She became interested in energy and sustainability during her studies at the University. Currently, Oluwafunmilola provides governance services to Nigerian and international companies by developing Environmental, Social, and Governance (ESG) frameworks for the companies and advising on sustainability. She speaks English and basic French.
+                Oluwafunmilola is a detail-oriented lawyer with experience in dispute resolution, company secretarial, and corporate commercial practices. 
+                She received an LL.B degree from the University of Ibadan, Nigeria and a B.L from the Nigerian Law School.She became interested in energy and sustainability during her studies at the University. 
+                Currently, Oluwafunmilola provides governance services to Nigerian and international companies by developing Environmental, Social, and Governance (ESG) frameworks for the companies and advising on sustainability. 
+                She speaks English and basic French.
             `
 
         },
