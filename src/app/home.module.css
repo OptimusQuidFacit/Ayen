@@ -118,3 +118,14 @@
 .notfound{
     min-height: 70vh;
 }
+.partners{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.partnerImgContainer{
+    position: relative;
+    height: 100px;
+}

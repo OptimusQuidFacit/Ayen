@@ -59,13 +59,22 @@ const Personnel = () => {
             `
 
         },
+        {
+            name: "Oluwafunmilola",
+            position:"Legal Partner",
+            photo: "/funmi.jpg",
+            text: `
+                Oluwafunmilola is a detail-oriented lawyer with experience in dispute resolution, company secretarial, and corporate commercial practices. She received an LL.B degree from the University of Ibadan, Nigeria and a B.L from the Nigerian Law School.She became interested in energy and sustainability during her studies at the University. Currently, Oluwafunmilola provides governance services to Nigerian and international companies by developing Environmental, Social, and Governance (ESG) frameworks for the companies and advising on sustainability. She speaks English and basic French.
+            `
+
+        },
     ]
     return (
         <div>
             <div className={`${styles.wrapper} `}>
                 {
                     persons.map(person=>
-                    <div key={person.name} className={`${person.name==="If there is need for that, include a name here" && styles.lead} my-3 mx-1 shadow shadow-1 p-3 rounded-2`}>
+                    <div key={person.name} className={`${person.name==="Promise Nwogu" && styles.lead} my-3 mx-1 shadow shadow-1 p-3 rounded-2`}>
                         <div className={`${styles.imgContainer} mb-3`}>
                             <Image className={`rounded-5 ${styles.img}`} src={person.photo} fill alt ={`A photo of ${person.name} and is the ${person.position} at AYEN`}   />
                         </div>

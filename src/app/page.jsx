@@ -28,6 +28,40 @@ const Home = () => {
       alt: "Photo of two members of the AYEN group"
     },
   ]
+  const partners= [
+    {
+      img: '/energyLeadersAssociation.jpeg',
+      name: 'Energy Leaders Association'
+    },
+    {
+      img: '/shortlist.png',
+      name: 'Shortlist'
+    },
+    {
+      img: '/SPEUnilag.jpeg',
+      name: 'SPE Unilag'
+    },
+    {
+      img: '/AhmaduBello.jpeg',
+      name: 'SPE Ahmadu Bello'
+    },
+    {
+      img: '/SPEUniport.jpeg',
+      name: 'SPE Uniport'
+    },
+    {
+      img: '/studentEnergy.jpeg',
+      name: 'Student Energy'
+    },
+    {
+      img: '/TafawaBelewa.jpeg',
+      name: 'SPE Abubakar Tafawa Belewa'
+    },
+    {
+      img: '/SwitchEnergy.jpeg',
+      name: 'Switch Energy Aliance'
+    },
+  ]
   return (
     <>
         <Head>
@@ -134,6 +168,22 @@ const Home = () => {
           <section className="py-5">
             <h2 className="fw-bold">Gallery</h2>
             <Gallery/>
+          </section>
+
+          <section className="p-lg-5 p-2">
+                <h2 className="fw-bold">
+                  Partners
+                </h2>
+                <div className={`${styles.partners}`}>
+                  {
+                    partners.map(partner=>
+                      <div className={`mt-2 ${styles.partnerImgContainer}`}>
+                        <Image style={{objectFit:"contain"}} fill src={partner.img} alt={`${partner.name}'s logo`}/>
+                      </div>
+                    )
+                  }
+
+                </div>
           </section>
           
       </div>

@@ -12,8 +12,8 @@ const page = () => {
         <div className="container">
             <header>
                 <div className={` `}>
-                    <div className={`${styles.imgContainer}`}>
-                        <Image className={`rounded-3 ${styles.img}`} src='/ayenphoto5.jpg' fill alt="A photo of a lady from the Ayen group"/>
+                    <div className={`${styles.imgContainer} border border-2`}>
+                        <Image className={`rounded-3  ${styles.img}`} src='/ayenphoto5.jpg' fill alt="A photo of a lady from the Ayen group"/>
                         <div className={`${styles.textContainer}`}>
                             <div className={`${styles.aboutTitle}`}>
                                 <h1 className={styles.headingText}>

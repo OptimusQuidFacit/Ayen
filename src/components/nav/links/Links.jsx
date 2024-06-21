@@ -28,6 +28,9 @@ const Links = () => {
         <li className="nav-item me-3">
           <Link className={` ${pathname==='/donate' ? styles.active: styles.link} nav-link`} href="/donate">Donate</Link>
         </li>
+        <li className="nav-item me-3">
+          <Link className={` ${pathname==='/projects' ? styles.active: styles.link} nav-link`} href="/projects">Projects</Link>
+        </li>
       </ul>
     </div>
     );
