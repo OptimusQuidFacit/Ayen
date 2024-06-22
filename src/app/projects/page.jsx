@@ -31,7 +31,7 @@ const page = () => {
                     </div>
                 </div>
                 <div className="mt-3 mt-md-0">
-                    <p className="fw-bold">
+                    {/* <p className="fw-bold">
                         Key objectives of AYED include:
                     </p>
                         <ul>
@@ -59,11 +59,11 @@ const page = () => {
                             <li>
                             The dialogue employs various approaches such as shared learning, networking, unified advocacy, joint initiatives, and cultural exchange to achieve its goals. Participants have the opportunity to share experiences, best practices, and collaborate on cross-border projects and initiatives.
                             </li>
-                        </ul>
+                        </ul> */}
                 </div>
                 </div>
             </section>
-            <section className="bg-primary text-white py-5 px-2">
+            <section className=" mt-5 bg-primary text-white py-5 px-2">
                 <div className="mt-3 container">
                 <div className={`${styles.ayedcontainer} d-md-flex
                 align-items-center gap-4`}>
@@ -77,7 +77,7 @@ const page = () => {
                     </div>
                     <div className="full-flex mt-4">
                         <p>
-                            The African Youths in Energy Network  movie screening tour Project is aimed  to raise awareness about the critical issue of energy poverty. The tour featured the film <span className="text-warning"> Switch On</span>, a powerful movie based on true events that highlights the struggles faced by individuals and communities lacking access to basic energy services.
+                            The African Youths in Energy Network  movie screening tour Project is aimed  to raise awareness about the critical issue of energy poverty. The tour featured the film  &quot;Switch On&quot;, a powerful movie based on true events that highlights the struggles faced by individuals and communities lacking access to basic energy services.
                             The objective is to educate viewers, especially youth, about the causes and impacts of energy poverty while inspiring them to take action to support efforts promoting universal access to clean, sustainable energy. After each screening, a panel discussion with energy experts will provide further insights and resources.
                             By bringing this important film to Youths across the continent, AYEN aims to spark conversation, understanding, and mobilize youth to join the fight against energy poverty affecting millions worldwide. The tour represents a platform to facilitate dialogue and drive positive change through access to energy for all.
                         </p>   

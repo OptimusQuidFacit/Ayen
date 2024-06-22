@@ -61,7 +61,7 @@ const Personnel = () => {
         },
         {
             name: "Oluwafunmilola",
-            position:"Legal Partner",
+            position:"Project Manager",
             photo: "/funmi.jpg",
             text: `
                 Oluwafunmilola is a detail-oriented lawyer with experience in dispute resolution, company secretarial, and corporate commercial practices. 
