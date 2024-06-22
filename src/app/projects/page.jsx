@@ -1,6 +1,12 @@
 import Image from "next/image";
 import styles from "./project.module.css"
+
+export const metadata = {
+    title: 'Innovative Energy Projects | Empowering Youth for a Sustainable Future',
+    description: 'Discover groundbreaking projects by our NGO, uniting youth to drive innovation in the energy sector. Explore initiatives fostering sustainable energy solutions and empowering the next generation of energy leaders.',
+  }
 const page = () => {
+    
     return (
         <>
             <h1 className="fw-bold text-center">Projects</h1>
