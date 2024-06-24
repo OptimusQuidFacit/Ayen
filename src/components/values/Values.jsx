@@ -1,3 +1,4 @@
+import { coreValues } from "@/data/home";
 import styles from "./values.module.css"
 import { FaHandHolding, FaPeopleGroup, FaPersonPraying } from "react-icons/fa6";
 import { GiAfrica } from 'react-icons/gi';
@@ -67,7 +68,7 @@ const Values = () => {
     return (
         <div className={`${styles.wrapper} bg-primary p-lg-5 p-1 rounded-3`}>
             {
-                values.map(value=>
+                coreValues.values.map(value=>
 
             <div key={value.title} className={`${styles.card} bg-light rounded-3 p-4 m-3`}>
                 <div className={`text-center fs-1 text-primary`}>

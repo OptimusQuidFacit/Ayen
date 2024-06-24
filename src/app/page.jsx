@@ -3,6 +3,7 @@ import styles from "./home.module.css"
 import Values from "@/components/values/Values";
 import Gallery from "@/components/Gallery/Gallery";
 import Head from "next/head";
+import { coreValues, heading1, mission, vision } from "@/data/home";
 
 
 export const metadata = {
@@ -84,11 +85,11 @@ const Home = () => {
                   </div> */}
                     <h1 className={`${styles.heading} fw-bold text-light text-center`}>
                       <span className={styles.african}>
-                        African 
+                        {heading1.substring(0, heading1.indexOf(" "))}
                       </span>
                       
                       <span className={styles.othertext}>
-                        Youths in Energy Network
+                      {heading1.substring(heading1.indexOf(" "))}
                       </span>
 
                     </h1>
@@ -105,21 +106,10 @@ const Home = () => {
           <section className={`${styles.row} mt-5`}>
             <div className={`${styles.leftMission}`}>   
               <h2 className="fw-bold">
-                  Mission
+                  {mission.heading}
               </h2>
               <p>
-                The AYEN Organization mission is to
-                actively promote and support the voices,
-                ideas and actions of youth in the shaping
-                of the energy future of the African
-                continent. This is achieved by providing a
-                platform for youth to come together and
-                explore innovative solutions, build
-                capacity, and foster collaboration and
-                social responsibility. Through this, AYEN
-                seeks to empower African youths and
-                ultimately create a sustainable energy
-                future.
+                {mission.text}
               </p>
             </div>
             <div className={`${styles.rightMission}`}>
@@ -136,21 +126,10 @@ const Home = () => {
             <div className={`${styles.rightVision}`}>
             
               <h2 className="fw-bold">
-                  Vision
+                  {vision.heading}
               </h2>
               <p>
-                We seek to empower Youths and place
-                them at the heart of the energy
-                transition. Through creative initiatives and
-                innovative projects, the organization aims
-                to provide an opportunity for young
-                people to actively participate in the shift
-                towards a more sustainable energy
-                system. With its focus on youth
-                engagement, AYEN is committed to
-                enabling a future where young people are
-                supported, informed and empowered to
-                become energy leaders and innovators.
+                {vision.text}
               </p>
             </div>
           </section>
@@ -159,7 +138,7 @@ const Home = () => {
           <section className="mt-5" id="values">
             <div>
               <h2 className="fw-bold text-center">
-                Our Core Values
+                {coreValues.heading}
               </h2>
               <Values/>
             </div>

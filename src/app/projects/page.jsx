@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./project.module.css"
+import { Project1, project2 } from "@/data/projects";
 
 export const metadata = {
     title: 'Innovative Energy Projects | Empowering Youth for a Sustainable Future',
@@ -16,13 +17,10 @@ const page = () => {
                 align-items-center`}>
                     <div className="full-flex">
                     <h2 className="fw-bold fs-3 text-secondary">
-                        African Youths in Energy Network (AYED)
+                        {Project1.title}
                     </h2>
                         <p>
-                        The African Youth Energy Dialogue (AYED) is an annual  event organized to bring together young people from across Africa to discuss critical energy issues facing the continent. The dialogue serves as a platform for youth engagement, knowledge sharing, and collaboration towards finding innovative solutions to address Africa&rsquo;s energy challenges.
-                        The AYED was first launched in 2022 and has become an annual initiative due to its success and importance. Each year, the dialogue focuses on a specific theme related to energy transition, sustainability, and development in Africa.
-                        
-
+                        {Project1.body}
                         </p>
                         
                     </div>
@@ -69,7 +67,7 @@ const page = () => {
                 align-items-center gap-4`}>
                     <div className="full-flex">
                     <h2 className="fw-bold fs-3 text-secondary">
-                        Movie Screening Tour
+                        {project2.title}
                     </h2>
                         <div className={`${styles.imgcontainer2} full-flex`}>
                                 <Image className="rounded rounded-4" style={{objectFit:"cover"}} src='/MovieScreening.jpg' alt='A photo ilustrating the AYED project' fill/>
@@ -77,9 +75,7 @@ const page = () => {
                     </div>
                     <div className="full-flex mt-4">
                         <p>
-                            The African Youths in Energy Network  movie screening tour Project is aimed  to raise awareness about the critical issue of energy poverty. The tour featured the film  &quot;Switch On&quot;, a powerful movie based on true events that highlights the struggles faced by individuals and communities lacking access to basic energy services.
-                            The objective is to educate viewers, especially youth, about the causes and impacts of energy poverty while inspiring them to take action to support efforts promoting universal access to clean, sustainable energy. After each screening, a panel discussion with energy experts will provide further insights and resources.
-                            By bringing this important film to Youths across the continent, AYEN aims to spark conversation, understanding, and mobilize youth to join the fight against energy poverty affecting millions worldwide. The tour represents a platform to facilitate dialogue and drive positive change through access to energy for all.
+                            {project2.body}
                         </p>   
                     </div>
                 </div>
