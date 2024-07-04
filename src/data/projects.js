@@ -1,6 +1,6 @@
 export const Project1= {
     title: "African Youth Energy Dialogue (AYED)",
-    body: ` The African Youth Energy Dialogue (AYED) is an annual  event organized to bring together young people from across Africa to discuss critical energy issues facing the continent. The dialogue serves as a platform for youth engagement, knowledge sharing, and collaboration towards finding innovative solutions to address Africa&rsquo;s energy challenges.
+    body: ` The African Youth Energy Dialogue (AYED) is an annual  event organized to bring together young people from across Africa to discuss critical energy issues facing the continent. The dialogue serves as a platform for youth engagement, knowledge sharing, and collaboration towards finding innovative solutions to address Africa's energy challenges.
             The AYED was first launched in 2022 and has become an annual initiative due to its success and importance. Each year, the dialogue focuses on a specific theme related to energy transition, sustainability, and development in Africa.`
 }
 
